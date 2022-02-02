@@ -1,7 +1,7 @@
 function Home() {
 
     return (
-     <div style={{ backgroundColor: '#F6F8FB', width: '100%', height: '300px' }}>
+     <div style={{  width: '100%', height: '300px' }}>
 
      </div>
     )

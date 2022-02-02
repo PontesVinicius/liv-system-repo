@@ -5,7 +5,74 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-left: 200px;
+  background-color: #F6F8FB;
+  margin-right: 200px;
 }
 .Mui-selected {
   color: #8D448B !important; 
+}
+.menu-header {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.header-div {
+  background-color: #F6F8FB;
+  height: 1010px;
+
+
+}
+.div-text-header {
+  width: 769px;
+  height: 451px;
+}
+
+.d-Button {
+  background-color: #8D448B;
+  width: 180px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.16s ease;
+
+
+}
+.d-Button:hover {
+  box-shadow: -1px 6px 10px 0px rgba(120, 60, 20, .2)
+  
+  
+}
+.text-title {
+  font-size: 64px;
+  color: #02073E;
+  font-weight: bold;
+}
+.text-subtitle {
+  font-size: 18px;
+  color: #02073E;
+  line-height: 42px;
+}
+.div-subtitle {
+  width: 479px;
+  height: 116px;
+}
+.div-email {
+  flex-direction: row;
+}
+.input-email {
+  width: 370px;
+  height: 55px;
+  border: #FFF;
+  border-radius: 8px;
+  box-shadow: 0px 10px 50px rgba( 48, 98, 145, 0.08);
+  padding: 5px;
+  font-size: 14px;
+  margin-right: 10px;
 }

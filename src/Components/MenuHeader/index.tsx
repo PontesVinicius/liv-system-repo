@@ -27,7 +27,7 @@ const HeaderMenu = () => {
     return (
         <>
             {matches && (
-                <React.Fragment>
+                <div className='menu-header'>
                     <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
 
                         <Typography component={Link} to="/" sx={{ minWidth: 100 }}>Home</Typography>
@@ -107,7 +107,7 @@ const HeaderMenu = () => {
                             Logout
                         </MenuItem>
                     </Menu>
-                </React.Fragment>
+                </div>
             )}
         </>
     );
